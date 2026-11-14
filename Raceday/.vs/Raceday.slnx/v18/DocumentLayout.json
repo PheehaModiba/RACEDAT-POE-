@@ -3,12 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|c:\\users\\pheeha daren\\onedrive\\documents\\racedat(poe)\\raceday\\raceday\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|solutionrelative:raceday\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|c:\\users\\pheeha daren\\onedrive\\documents\\racedat(poe)\\raceday\\raceday\\filters\\raceday.web.filters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|solutionrelative:raceday\\filters\\raceday.web.filters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|c:\\users\\pheeha daren\\onedrive\\documents\\racedat(poe)\\raceday\\raceday\\obj\\debug\\net10.0\\raceday.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|solutionrelative:raceday\\obj\\debug\\net10.0\\raceday.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|c:\\users\\pheeha daren\\onedrive\\documents\\racedat(poe)\\raceday\\raceday\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|solutionrelative:raceday\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|c:\\users\\pheeha daren\\onedrive\\documents\\racedat(poe)\\raceday\\raceday\\filters\\roleauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|solutionrelative:raceday\\filters\\roleauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|c:\\users\\pheeha daren\\onedrive\\documents\\racedat(poe)\\raceday\\raceday\\controllers\\participantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|solutionrelative:raceday\\controllers\\participantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pheeha Daren\\.copilot\\plans\\plan-fix-cs0246-forbidresult-not-found.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|c:\\users\\pheeha daren\\onedrive\\documents\\racedat(poe)\\raceday\\raceday\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|solutionrelative:raceday\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|c:\\users\\pheeha daren\\onedrive\\documents\\racedat(poe)\\raceday\\raceday\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|solutionrelative:raceday\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|c:\\users\\pheeha daren\\onedrive\\documents\\racedat(poe)\\raceday\\raceday\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|solutionrelative:raceday\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|c:\\users\\pheeha daren\\onedrive\\documents\\racedat(poe)\\raceday\\raceday\\raceday.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -17,10 +44,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|c:\\users\\pheeha daren\\onedrive\\documents\\racedat(poe)\\raceday\\raceday\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|solutionrelative:raceday\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|c:\\users\\pheeha daren\\onedrive\\documents\\racedat(poe)\\raceday\\raceday\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|solutionrelative:raceday\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|Raceday\\Raceday.csproj|c:\\users\\pheeha daren\\onedrive\\documents\\racedat(poe)\\raceday\\raceday\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,24 +65,122 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "plan-fix-cs0246-forbidresult-not-found.md [Preview]",
+              "DocumentMoniker": "C:\\Users\\Pheeha Daren\\.copilot\\plans\\plan-fix-cs0246-forbidresult-not-found.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\.copilot\\plans\\plan-fix-cs0246-forbidresult-not-found.md",
+              "ToolTip": "C:\\Users\\Pheeha Daren\\.copilot\\plans\\plan-fix-cs0246-forbidresult-not-found.md [Preview]",
+              "RelativeToolTip": "..\\..\\..\\..\\.copilot\\plans\\plan-fix-cs0246-forbidresult-not-found.md [Preview]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-11-14T17:17:35.618Z",
+              "EditorCaption": " [Preview]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Raceday.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\obj\\Debug\\net10.0\\Raceday.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Raceday\\obj\\Debug\\net10.0\\Raceday.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\obj\\Debug\\net10.0\\Raceday.AssemblyInfo.cs",
+              "RelativeToolTip": "Raceday\\obj\\Debug\\net10.0\\Raceday.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T16:55:35.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ParticipantController.cs",
+              "DocumentMoniker": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\Controllers\\ParticipantController.cs",
+              "RelativeDocumentMoniker": "Raceday\\Controllers\\ParticipantController.cs",
+              "ToolTip": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\Controllers\\ParticipantController.cs",
+              "RelativeToolTip": "Raceday\\Controllers\\ParticipantController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T16:54:02.119Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\Program.cs",
+              "RelativeDocumentMoniker": "Raceday\\Program.cs",
+              "ToolTip": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\Program.cs",
+              "RelativeToolTip": "Raceday\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T19:12:49.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RaceDay.Web.Filters.cs",
+              "DocumentMoniker": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\Filters\\RaceDay.Web.Filters.cs",
+              "RelativeDocumentMoniker": "Raceday\\Filters\\RaceDay.Web.Filters.cs",
+              "ToolTip": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\Filters\\RaceDay.Web.Filters.cs",
+              "RelativeToolTip": "Raceday\\Filters\\RaceDay.Web.Filters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T16:46:20.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoleAuthorizeAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\Filters\\RoleAuthorizeAttribute.cs",
+              "RelativeDocumentMoniker": "Raceday\\Filters\\RoleAuthorizeAttribute.cs",
+              "ToolTip": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\Filters\\RoleAuthorizeAttribute.cs",
+              "RelativeToolTip": "Raceday\\Filters\\RoleAuthorizeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T16:46:19.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Raceday\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Raceday\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T16:45:53.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Raceday\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Raceday\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowCQAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwDgAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T16:32:40.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Raceday\\Views\\_ViewImports.cshtml",
@@ -67,12 +188,11 @@
               "RelativeToolTip": "Raceday\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-14T16:23:47.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-14T16:23:47.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Raceday\\Views\\_ViewStart.cshtml",
@@ -84,29 +204,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\Program.cs",
-              "RelativeDocumentMoniker": "Raceday\\Program.cs",
-              "ToolTip": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\Program.cs",
-              "RelativeToolTip": "Raceday\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T19:12:49.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "RaceDay.Web.csproj",
               "DocumentMoniker": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\RaceDay.Web.csproj",
               "RelativeDocumentMoniker": "Raceday\\RaceDay.Web.csproj",
@@ -119,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Raceday\\Views\\Account\\Register.cshtml",
@@ -131,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Raceday\\Views\\Account\\Login.cshtml",
@@ -143,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Pheeha Daren\\OneDrive\\Documents\\RACEDAT(POE)\\Raceday\\Raceday\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Raceday\\wwwroot\\css\\site.css",
