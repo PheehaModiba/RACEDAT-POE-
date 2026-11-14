@@ -1,0 +1,42 @@
+@model List<EventDto>
+@{ ViewData["Title"] = "Manage events"; }
+<div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+    <h1 class="display-title mb-0">Manage events</h1>
+    <a class="btn btn-gold" asp-action="Create">New event</a>
+</div>
+@if (!Model.Any())
+{ <div class="empty mt-4">You haven't created any events yet.</div> }
+else
+{
+    <div class="table-responsive mt-3"><table class="table rd-table align-middle">
+        <thead><tr><th>Event</th><th>Date</th><th>Type</th><th>Distance</th><th class="text-end">Enrolled</th><th></th></tr></thead>
+        <tbody>
+        @foreach (var e in Model)
+        {
+            <tr>
+                <td>@e.Name<br /><small class="text-muted">@e.Location</small></td>
+                <td>@e.Date.ToString("d MMM yyyy")</td>
+                <td><span class="type-tag type-@e.EventType.ToLowerInvariant() static">@e.EventType</span></td>
+                <td>@Fmt.Km(e.DistanceKm) km</td>
+                <td class="text-end">@e.EnrolmentCount</td>
+                <td class="text-end text-nowrap">
+                    <a class="btn btn-sm btn-outline-dark" asp-action="Categories" asp-route-eventId="@e.Id">Categories</a>
+                    <a class="btn btn-sm btn-outline-dark" asp-action="Enrolments" asp-route-eventId="@e.Id">Enrolments</a>
+                    <a class="btn btn-sm btn-outline-dark" asp-action="Results" asp-route-eventId="@e.Id">Results</a>
+                    <a class="btn btn-sm btn-outline-dark" asp-action="Edit" asp-route-id="@e.Id">Edit</a>
+                    <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#del@(e.Id)">Delete</button>
+                    <div class="modal fade text-start" id="del@(e.Id)" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog"><div class="modal-content">
+                            <div class="modal-header"><h5 class="modal-title">Delete event?</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                            <div class="modal-body">“@e.Name” and its categories will be removed. This can't be undone.</div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                                <form asp-action="Delete" asp-route-id="@e.Id" method="post"><button class="btn btn-danger" type="submit">Delete</button></form>
+                            </div>
+                        </div></div>
+                    </div>
+                </td>
+            </tr>
+        }
+        </tbody></table></div>
+}

@@ -1,0 +1,14 @@
+@model EventDto
+@{ string? bg = string.IsNullOrEmpty(Model.BannerUrl) ? null : $"background-image:url('{Model.BannerUrl}')"; }
+<a class="event-card" asp-controller="Home" asp-action="Details" asp-route-id="@Model.Id">
+    <div class="event-card-banner @(string.IsNullOrEmpty(Model.BannerUrl) ? "no-img" : "")" style="@bg">
+        <span class="type-tag type-@Model.EventType.ToLowerInvariant()">@Model.EventType</span>
+        <div class="bib" aria-label="@Fmt.Km(Model.DistanceKm) kilometres">
+            <span class="bib-num">@Fmt.Km(Model.DistanceKm)</span><span class="bib-unit">km</span>
+        </div>
+    </div>
+    <div class="event-card-body">
+        <h3>@Model.Name</h3>
+        <p class="meta">@Model.Date.ToString("ddd d MMM yyyy, HH:mm")<br />@Model.Location</p>
+    </div>
+</a>

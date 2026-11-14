@@ -1,0 +1,44 @@
+@model DashboardVm
+@{ ViewData["Title"] = "Dashboard"; }
+<h1 class="display-title">Organiser dashboard</h1>
+<div class="row g-3 mb-4">
+    <div class="col-sm-4"><div class="stat"><div class="stat-num">@Model.Events.Count</div><div>Events created</div></div></div>
+    <div class="col-sm-4"><div class="stat"><div class="stat-num">@Model.TotalEnrolments</div><div>Total enrolments</div></div></div>
+    <div class="col-sm-4"><div class="stat"><div class="stat-num">@Model.Upcoming.Count</div><div>Upcoming events</div></div></div>
+</div>
+
+<div class="row g-4">
+    <div class="col-lg-7">
+        <h2 class="h4">Enrolments per event</h2>
+        @if (!Model.Events.Any())
+        { <div class="empty">No events yet. <a asp-action="Create">Create your first event</a></div> }
+        else
+        {
+            <div class="table-responsive"><table class="table rd-table align-middle">
+                <thead><tr><th>Event</th><th>Date</th><th class="text-end">Enrolments</th><th></th></tr></thead>
+                <tbody>
+                @foreach (var e in Model.Events.OrderBy(x => x.Date))
+                {
+                    <tr>
+                        <td>@e.Name</td><td>@e.Date.ToString("d MMM yyyy")</td><td class="text-end">@e.EnrolmentCount</td>
+                        <td class="text-end"><a asp-action="Enrolments" asp-route-eventId="@e.Id">View</a></td>
+                    </tr>
+                }
+                </tbody></table></div>
+        }
+    </div>
+    <div class="col-lg-5">
+        <h2 class="h4">Next up</h2>
+        @if (!Model.Upcoming.Any()) { <div class="empty">Nothing scheduled.</div> }
+        else
+        {
+            <ul class="upcoming">
+            @foreach (var e in Model.Upcoming)
+            {
+                <li><span class="date-chip"><b>@e.Date.ToString("dd")</b>@e.Date.ToString("MMM")</span>
+                    <span><strong>@e.Name</strong><br /><small class="text-muted">@e.Location</small></span></li>
+            }
+            </ul>
+        }
+    </div>
+</div>

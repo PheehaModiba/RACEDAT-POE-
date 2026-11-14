@@ -1,0 +1,31 @@
+@model ResultsEntryVm
+@{ ViewData["Title"] = "Results"; }
+<a asp-action="Events" class="small">&larr; All events</a>
+<h1 class="display-title">Results entry</h1>
+<p class="meta">@Model.Event.Name · @Model.Event.Date.ToString("d MMM yyyy")</p>
+<partial name="_ValidationSummary" />
+@if (Model.Event.Date > DateTime.Now)
+{ <div class="alert alert-warning">This event hasn't happened yet. Results can be captured once it concludes.</div> }
+@if (!Model.Rows.Any()) { <div class="empty">No enrolled participants to capture results for.</div> }
+else
+{
+    <form asp-action="Results" asp-route-eventId="@Model.Event.Id" method="post" novalidate>
+        <div class="table-responsive"><table class="table rd-table align-middle">
+            <thead><tr><th>Participant</th><th>Category</th><th style="width:170px">Finish time (hh:mm:ss)</th><th style="width:120px">Position</th></tr></thead>
+            <tbody>
+            @for (var i = 0; i < Model.Rows.Count; i++)
+            {
+                <tr>
+                    <td>@Model.Rows[i].ParticipantName
+                        <input type="hidden" asp-for="Rows[i].EnrolmentId" />
+                        <input type="hidden" asp-for="Rows[i].ParticipantName" />
+                        <input type="hidden" asp-for="Rows[i].CategoryName" /></td>
+                    <td>@Model.Rows[i].CategoryName</td>
+                    <td><input asp-for="Rows[i].FinishTime" class="form-control time" placeholder="01:23:45" /><span asp-validation-for="Rows[i].FinishTime" class="text-danger small"></span></td>
+                    <td><input asp-for="Rows[i].Position" type="number" min="1" class="form-control" /><span asp-validation-for="Rows[i].Position" class="text-danger small"></span></td>
+                </tr>
+            }
+            </tbody></table></div>
+        <button class="btn btn-gold" type="submit">Publish results</button>
+    </form>
+}

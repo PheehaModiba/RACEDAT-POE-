@@ -1,0 +1,9 @@
+C:\Users\Pheeha Daren\OneDrive\Documents\RACEDAT(POE)\Raceday\Raceday\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Pheeha Daren\OneDrive\Documents\RACEDAT(POE)\Raceday\Raceday\obj\Debug\net10.0\Raceday.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pheeha Daren\OneDrive\Documents\RACEDAT(POE)\Raceday\Raceday\obj\Debug\net10.0\Raceday.AssemblyInfoInputs.cache
+C:\Users\Pheeha Daren\OneDrive\Documents\RACEDAT(POE)\Raceday\Raceday\obj\Debug\net10.0\Raceday.AssemblyInfo.cs
+C:\Users\Pheeha Daren\OneDrive\Documents\RACEDAT(POE)\Raceday\Raceday\obj\Debug\net10.0\Raceday.csproj.CoreCompileInputs.cache
+C:\Users\Pheeha Daren\OneDrive\Documents\RACEDAT(POE)\Raceday\Raceday\obj\Debug\net10.0\Raceday.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Pheeha Daren\OneDrive\Documents\RACEDAT(POE)\Raceday\Raceday\obj\Debug\net10.0\Raceday.RazorAssemblyInfo.cache
+C:\Users\Pheeha Daren\OneDrive\Documents\RACEDAT(POE)\Raceday\Raceday\obj\Debug\net10.0\Raceday.RazorAssemblyInfo.cs
+C:\Users\Pheeha Daren\OneDrive\Documents\RACEDAT(POE)\Raceday\Raceday\obj\Debug\net10.0\Raceday.sourcelink.json

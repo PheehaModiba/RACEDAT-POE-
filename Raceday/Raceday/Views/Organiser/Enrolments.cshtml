@@ -1,0 +1,17 @@
+@model EventEnrolmentsVm
+@{ ViewData["Title"] = "Enrolments"; }
+<a asp-action="Events" class="small">&larr; All events</a>
+<h1 class="display-title">Enrolments</h1>
+<p class="meta">@Model.Event.Name · @Model.Enrolments.Count enrolled</p>
+@if (!Model.Enrolments.Any()) { <div class="empty">Nobody has entered this event yet.</div> }
+else
+{
+    <div class="table-responsive"><table class="table rd-table align-middle">
+        <thead><tr><th>Participant</th><th>Category</th><th>Enrolled</th><th>Status</th></tr></thead>
+        <tbody>
+        @foreach (var e in Model.Enrolments)
+        {
+            <tr><td>@e.ParticipantName</td><td>@e.CategoryName</td><td>@e.EnrolledAt.ToString("d MMM yyyy")</td><td><partial name="_StatusBadge" model="e.Status" /></td></tr>
+        }
+        </tbody></table></div>
+}

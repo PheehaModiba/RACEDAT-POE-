@@ -1,0 +1,24 @@
+@model List<ResultDto>
+@{ ViewData["Title"] = "My results"; }
+<h1 class="display-title">My results</h1>
+@if (!Model.Any())
+{
+    <div class="empty">No results yet. They appear here once an organiser publishes them after your event.</div>
+}
+else
+{
+    <div class="table-responsive"><table class="table rd-table align-middle">
+        <thead><tr><th>Event</th><th>Date</th><th>Category</th><th>Finish time</th><th>Position</th></tr></thead>
+        <tbody>
+        @foreach (var r in Model)
+        {
+            <tr>
+                <td>@r.EventName</td>
+                <td>@r.EventDate.ToString("d MMM yyyy")</td>
+                <td>@r.CategoryName</td>
+                <td class="time">@r.FinishTime</td>
+                <td><strong>@Fmt.Ordinal(r.Position)</strong>@if (r.TotalFinishers > 0) { <span class="text-muted"> out of @r.TotalFinishers finishers</span> }</td>
+            </tr>
+        }
+        </tbody></table></div>
+}

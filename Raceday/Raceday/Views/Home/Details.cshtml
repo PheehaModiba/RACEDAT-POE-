@@ -1,0 +1,48 @@
+@model EventDetailsVm
+@{ ViewData["Title"] = Model.Event.Name; var user = Context.Session.GetUser(); var e = Model.Event; string? bg = string.IsNullOrEmpty(e.BannerUrl) ? null : $"background-image:url('{e.BannerUrl}')"; }
+<div class="detail-hero @(string.IsNullOrEmpty(e.BannerUrl) ? "no-img" : "")" style="@bg">
+    <span class="type-tag type-@e.EventType.ToLowerInvariant()">@e.EventType</span>
+    <div class="bib bib-lg"><span class="bib-num">@Fmt.Km(e.DistanceKm)</span><span class="bib-unit">km</span></div>
+</div>
+<div class="row g-4 mt-1">
+    <div class="col-lg-8">
+        <h1 class="display-title">@e.Name</h1>
+        <p class="meta">@e.Date.ToString("dddd d MMMM yyyy, HH:mm") · @e.Location</p>
+        <p class="detail-desc">@e.Description</p>
+    </div>
+    <div class="col-lg-4">
+        <div class="panel">
+            <h2 class="h5">Categories</h2>
+            @if (!Model.Categories.Any())
+            { <p class="text-muted mb-0">No categories have been set up yet.</p> }
+            else if (user?.IsParticipant == true)
+            {
+                if (Model.AlreadyEnrolled)
+                {
+                    <p class="mb-2">You're already entered in this event.</p>
+                    <a class="btn btn-outline-secondary" asp-controller="Participant" asp-action="Enrolments">View my enrolments</a>
+                }
+                else if (e.Date < DateTime.Now)
+                { <p class="text-muted mb-0">This event has already taken place.</p> }
+                else
+                {
+                    <form asp-action="Enrol" method="post">
+                        <input type="hidden" name="EventId" value="@e.Id" />
+                        @foreach (var c in Model.Categories)
+                        {
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="CategoryId" id="cat@(c.Id)" value="@c.Id" required />
+                                <label class="form-check-label" for="cat@(c.Id)">@c.Name</label>
+                            </div>
+                        }
+                        <button class="btn btn-gold w-100 mt-2" type="submit">Enter event</button>
+                    </form>
+                }
+            }
+            else
+            {
+                <ul class="mb-0">@foreach (var c in Model.Categories) { <li>@c.Name</li> }</ul>
+            }
+        </div>
+    </div>
+</div>
